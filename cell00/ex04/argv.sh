@@ -1,12 +1,9 @@
 #!/bin/bash
 
-for i in $@
-do
-	echo $i
-	echo ","
-	
-done
-if [ $# -gt 2 ]
-then
-	echo "none"
+if [ ! "$1" ]; then
+  echo "No arguments supplied"
+else
+  echo "$1"
+  echo "$2"
+  echo "$3"
 fi
