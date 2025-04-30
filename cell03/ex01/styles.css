@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#cir{
+    background-color: #007bff;
+    color: peru;
+    padding: 15px 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 50rem;
+    cursor: pointer;
+}
