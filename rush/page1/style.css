@@ -118,7 +118,7 @@ nav svg{
 } 
 
 .sec2{
-    height: 80vh;
+    height: 100vh;
     background: #f1f1f1;
     color: white;
     box-sizing: border-box;
@@ -225,12 +225,12 @@ img{
     display: grid;
     column-gap: 5vw;
     grid-template-columns: auto auto auto;
-    padding: 10px;
+    padding: 1vw;
 }
 
 .Choice > div {
     border: 1px soid black;
-    padding: 20px;
+    padding: 1vw;
     font-size: 2vw;
     text-align: left;
 }
@@ -241,4 +241,33 @@ img{
 
 .Exnextimage h3{
     font-size: 2vw;
+}
+
+.footabout{
+    color: black;
+    text-align: center;
+}
+
+.Choicefoot{
+    display: grid;
+    column-gap: 5vw;
+    grid-template-columns: auto auto;
+    padding: 1vw;
+}
+
+.Choicefoot > div {
+    border: 1px soid black;
+    padding: 1vw;
+    font-size: 2vw;
+    text-align: left;
+}
+
+.footabout img{
+    padding: 2vw;
+    width: 20vw;
+}
+
+.footabout iframe{
+    width: 20px;
+    height: auto;
 }
