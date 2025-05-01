@@ -108,7 +108,6 @@ nav svg{
 /*section1//////////////////////////////////////////*/
 .sec1{
     height: 110vh;
-    /* background: red; */
     box-sizing: border-box;
     padding: 35px;
     align-items: center;
@@ -118,7 +117,7 @@ nav svg{
 } 
 
 .sec2{
-    height: 145vh;
+    height: 100%;
     background: #f1f1f1;
     color: white;
     box-sizing: border-box;
@@ -170,10 +169,10 @@ nav svg{
 }
 
 .sec2 .content h1{
-    font-size: 7vw;
+    font-size: 6vw;
 }
 
-hr.About {
+hr {
     border: 1px dashed black;
 }
 
@@ -246,6 +245,8 @@ img{
 .footabout{
     color: black;
     text-align: center;
+    /* background-color: #f1f1f1; */
+    width: 100%;
 }
 
 .Choicefoot{
@@ -267,7 +268,65 @@ img{
     width: 20vw;
 }
 
-iframe{
+/* iframe{
     width: 20vw;
     height: auto;
+} */
+
+/*/////////////// sec3 /////////////////////////////*/
+
+
+
+/*/////////////// sec4 ////////////////////////////*/
+
+
+
+/*////////////// sec5 ////////////////////////////*/
+.contact {
+    height: 100vh;
+    background: #f1f1f1;
+    color: black;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+
+.content2{
+    position: relative;
+    bottom: 0;
+    background: rgba(0,0,0,0);
+    color: black;
+    width: 100%;
+    padding: 1px;
+    align-items: center;
+    text-align: center;
+    font-size: 2vw;
 }
+
+.contact .content h1{
+    font-size: 7vw;
+}
+
+.contact .content h2{
+    font-size: 4vw;
+}
+
+.input{
+    width: 60vw;
+    padding-left: 3vw;
+    font-size: 2vw;
+}
+
+.input .Choice{
+    display: grid;
+    column-gap: 30vw;
+    grid-template-columns: auto auto;
+    padding: 1vw;
+}
+
+.input .Choice > div{
+    border: 1px soid black;
+    padding: 1vw;
+    font-size: 2vw;
+    text-align: center;
+}
+
