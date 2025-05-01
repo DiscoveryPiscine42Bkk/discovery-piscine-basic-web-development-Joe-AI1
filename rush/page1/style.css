@@ -118,7 +118,7 @@ nav svg{
 } 
 
 .sec2{
-    height: 60vh;
+    height: 80vh;
     background: #f1f1f1;
     color: white;
     box-sizing: border-box;
@@ -218,4 +218,27 @@ img{
 .Exnextimage{
     width: 60vw;
     padding-left: 3vw;
+    font-size: 2vw;
+}
+
+.Choice{
+    display: grid;
+    column-gap: 5vw;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.Choice > div {
+    border: 1px soid black;
+    padding: 20px;
+    font-size: 2vw;
+    text-align: left;
+}
+
+.Exnextimage h2{
+    font-size: 3.5vw;
+}
+
+.Exnextimage h3{
+    font-size: 2vw;
 }
