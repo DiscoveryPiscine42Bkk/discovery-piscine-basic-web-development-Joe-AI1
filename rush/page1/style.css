@@ -2,6 +2,7 @@
     --color-1: #bc9c00;
     --text-color: #fff;
     --accent-color: aqua;
+    --text2-color: black;
 }
 
 body{
@@ -275,7 +276,68 @@ img{
 
 /*/////////////// sec3 /////////////////////////////*/
 
+#experience{
+    background-color: #f1f1f1;
+    align-items: center;
+}
 
+.heading{
+    text-align: center;
+    font-size: 60vw;
+    color: var(--text2-color);
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 1vw;
+    margin-top: 0;
+    padding: 0;
+}
+
+.skills-container{
+    margin: auto;
+    color: var(--text2-color);
+}
+
+.skill-card{
+    position: relative;
+    width: 350px;
+}
+
+.skill-img{
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 20vh;
+    opacity: 70;
+}
+
+.skill-name{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+}
+
+.skill-info{
+    text-align: center;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.skill-level{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    border: 10px solid;
+}
 
 /*/////////////// sec4 ////////////////////////////*/
 
