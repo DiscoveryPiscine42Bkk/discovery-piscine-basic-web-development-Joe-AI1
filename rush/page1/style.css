@@ -4,7 +4,9 @@
     --accent-color: aqua;
     --text2-color: black;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -27,6 +29,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
 
 nav a{
@@ -36,6 +39,7 @@ nav a{
     align-items: center;
     text-decoration: none;
     color: var(--text-color);
+    
 }
 
 nav a:hover{
@@ -58,7 +62,12 @@ nav svg{
 .close-sidebar-btn{
     display: none;
 }
-
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 @media(max-width: 450px){
     .links-container{
         flex-direction: column;
@@ -67,7 +76,7 @@ nav svg{
         position: fixed;
         top: 0;
         right: -100%;
-        z-index: 10;
+        z-index: 999;
         width: 200px;
 
         background-color: var(--color-1);
@@ -341,7 +350,20 @@ img{
 
 /*/////////////// sec4 ////////////////////////////*/
 
+.pro{
+    height: 20vh;
+    background: #f1f1f1;
+    color: black;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    font-size: 2vw;
+}
 
+.pro h1{
+    font-size: 3vw;
+    font-weight: 300;
+}
 
 /*////////////// sec5 ////////////////////////////*/
 .contact {
@@ -351,6 +373,7 @@ img{
     box-sizing: border-box;
     align-items: center;
     text-align: center;
+    padding-top: 10vw;
 
 .content2{
     position: relative;
@@ -366,6 +389,7 @@ img{
 
 .contact .content h1{
     font-size: 7vw;
+    font-weight: 400;
 }
 
 .contact .content h2{
@@ -395,6 +419,24 @@ img{
 .input svg{
     width: 6vw;
     padding-bottom: 4vw;
+    justify-items: flex-end;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-form {
@@ -424,7 +466,7 @@ img{
     padding-top: 0.5rem;
   }
   
-  .contact-form label {
+  .contact-form span {
     color: #524a4e;
   }
   
@@ -450,3 +492,4 @@ img{
     padding: 0.2vw;
     margin-bottom: 0;
   }
+}
